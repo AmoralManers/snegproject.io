@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+ <main class="main">
+ 		<ul class="background">	
+ 			<li class="white main_img">
+ 				<div class="sneg">
+ 					<a href="xyt" class="sneg__inner light">Sneg</a>
+ 				</div>
+ 				<div class="profile">
+ 					<a  href="xyt" class="profile__inner light">profile</a>
+ 				</div>	
+ 			</li>
+ 			<li class="black main_img">
+ 				<div class="saves">
+ 					<a href="xyt" class="saves__inner dark">saves</a>
+ 				</div>
+ 				<div class="archive">
+ 					<a  href="xyt" class="archive__inner dark">Archive</a>
+ 				</div>	
+ 			</li>
+ 			<div class="images-main">
+ 				<div class="img__bayonet-top"><img src="images/basee 3.png" alt="" class="main__page__background-bayonet-1"></div>
+ 				<div class="img__bayonet-center"><img src="images/main-main.png" class="main__page__background-bayonet-2"></div>
+ 				<div class="img__bayonet-bottom"><img src="images/bayonet-main2.png" class="main__page__background-bayonet-3"></div>
+ 			</div>		
+		</ul>
+ </main>
+</body>
+</html>
+
+<script>
+
+
+const lightElements = document.querySelectorAll('.light');
+const darkElements = document.querySelectorAll('.dark');
+const white = document.querySelector('.white');
+const black = document.querySelector('.black');
+
+
+
+lightElements.forEach(lightElement => {
+  lightElement.addEventListener('mouseover', () => {
+      white.classList.add('zoom');
+  });
+});
+
+darkElements.forEach(darkElement => {
+  darkElement.addEventListener('mouseover', () => {
+      black.classList.add('zoom');
+  });
+});
+
+// Для удаления класса при уходе мыши с элемента можно использовать следующий код:
+
+lightElements.forEach(lightElement => {
+  lightElement.addEventListener('mouseout', () => {
+      white.classList.remove('zoom');
+  });
+});
+
+darkElements.forEach(darkElement => {
+  darkElement.addEventListener('mouseout', () => {
+      black.classList.remove('zoom');
+  });
+});
+</script>
