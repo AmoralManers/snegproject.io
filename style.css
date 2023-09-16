@@ -4,8 +4,14 @@
 	box-sizing: border-box;
 }
 
+@font-face {
+	font-family: 'Imperial Script';
+	font-style: normal;
+	font-weight: 400;
+	src: url('ImperialScript-Regular.woff'), format('woff')
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Imperial+Script&family=Thasadith:ital@1&display=swap');
+
 
 .main {
 	height: 100vh;
