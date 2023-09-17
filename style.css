@@ -143,3 +143,13 @@ a {
 	position: relative;
 	height: 100%;
 }
+
+@media(max-width: 600px) {
+	.body {
+		overflow: inherit;
+	}
+
+	.background li {
+		height: 120vh;
+	}
+}
