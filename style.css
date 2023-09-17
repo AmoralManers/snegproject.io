@@ -60,7 +60,7 @@ body {
 }
 
 .images img:last-child {
-	    transform: translateX(0.5%);
+	    transform: translateX(-4%);
   position: absolute;
   bottom: -2%;
   object-fit: cover;
