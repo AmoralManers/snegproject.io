@@ -49,8 +49,8 @@ body {
   overflow: hidden;
 }
 
-.images img {
-	width: 50vh;
+/*.images img {
+	width: 60vh;
 }
 
 .images img:first-child {
@@ -60,11 +60,11 @@ body {
 }
 
 .images img:last-child {
-	    transform: translateX(-4%);
+	    transform: translateX(0.5%);
   position: absolute;
   bottom: -2%;
   object-fit: cover;
-}
+}*/
 
 
 
