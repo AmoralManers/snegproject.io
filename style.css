@@ -22,14 +22,20 @@ html, body {
   overflow-x: hidden;
 }
 
-
 body {
-	background: black;
+	background: black;	
 }
+
 
 body {
 	margin: 0;	
 }
+
+.body {
+	max-height: 100vh;
+	overflow: hidden;
+}
+
 
 
 .main {
@@ -74,10 +80,7 @@ a {
 	text-decoration: none;
 	color: #fff;
 }
-.body {
-	max-height: 100vh;
-	overflow: hidden;
-}
+
 
 .background {
   display: flex;
@@ -136,241 +139,7 @@ a {
 }
 
 
-.background {
-	color: #FFF;
-	font-family: 'Imperial Script';
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-
-
+.container {
+	position: relative;
+	height: 100%;
 }
-/*/*/
-/*.images-main {
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-	display: grid;
-}
-
-
-
-
-.images-main .img__bayonet-top {
-	transform: translate(2%, 20%);
-	z-index: 0;
-}
-
-.images-main .img__bayonet-center {
-	transform: translateY(-4%);
-	z-index: 0;
-}
-
-.images-main .img__bayonet-bottom {
-	transform: translate(-4.5%, -19%);
-	z-index: 0;
-}
-
-
-.background a {
-	  border-bottom: 1px solid #fff;
-	  padding-bottom: 5px;
-}
-
-.background a:hover {
-	transition: .3s;
- 	color: #980002;
- 	border-bottom: 1px solid #980002;
-
- }
-
-
-.sneg {
-	position: absolute;
-	top: 7%;
-    left: 100%;
-    transform: translateX(-280%);
-    z-index: 1;
-}
-
-.sneg__inner, .archive__inner{
-	font-size: 32px;
-	letter-spacing: 1.6px;
-	cursor: pointer;
-	
-}
-
-.profile {
-	position: absolute;
-	left: 100%;
-    transform: translateX(-300%);
-    bottom: 20%;
-	z-index: 1;
-}
-
-.background .profile__inner, .saves__inner{
-	font-size: 24px;
-	letter-spacing: 1.92px;
-	cursor: pointer;
-	color: inherit;
-	font-family: inherit;
-}
-
-
-.saves, .archive {
-	z-index: 1;
-}
-
-
-.saves {
-	position: absolute;
-    right: 100%;
-    transform: translateX(380%); 
-    top: 23%;
-}
-
- .archive {
- 	position: absolute;
-    right: 100%;
-	transform: translateX(170%);
-    bottom: 6%;
- }
-
-
-
- /*390px*/
-
-
-/*
-
- @media(max-width: 450px){
-
- .sneg {
- 	top: 13%;
-    transform: translateX(-310%);
- }
-
- .profile {
- 	transform: translateX(-270%);
-    bottom: 25%;
- }
-
- .saves {
- 	transform: translateX(380%);
-    top: 26%;
- }
-
- .archive {
- 	transform: translateX(210%);
-    bottom: 14%;
- }
-
- .background .profile__inner, .saves__inner{
-	font-size: 18px;
-	letter-spacing: 1.92px;
-}
-
-.sneg__inner, .archive__inner{
-	font-size: 24px;
-	letter-spacing: 1.6px;
-	cursor: pointer;
-}
- 	.images-main .img__bayonet-top {
-	transform: translate(0%, 20%);
-}
-.images-main .img__bayonet-center {
-	transform: translate(0%, -4%);
-	
-}
-.images-main .img__bayonet-bottom {
-	    transform: translate(0%, -19%);
-	
-}
-
-.main__page__background-bayonet-1, .main__page__background-bayonet-2, .main__page__background-bayonet-3 {
-	    width: 500px;
-}
-
-}
-
-
-
-
- @media(max-width: 340px) {
-
- 	.sneg {
- 	top: 20%;
-    transform: translateX(-270%);
- }
-
- .profile {
- 	transform: translateX(-250%);
-    bottom: 30%;
- }
-
- .saves {
- transform: translateX(350%);
-    top: 31%;
- }
-
- .archive {
- 	transform: translateX(195%);
-    bottom: 21%;
- }
-
- 	 .background .profile__inner, .saves__inner{
-	font-size: 16px;
-	letter-spacing: 1.92px;
-}
-
-.sneg__inner, .archive__inner{
-	font-size: 22px;
-	letter-spacing: 1.6px;
-	cursor: pointer;
-}
-
-
- 	.main__page__background-bayonet-1, .main__page__background-bayonet-2, .main__page__background-bayonet-3 {
-	    width: 400px;
-}
-
- 	.images-main .img__bayonet-top {
-	transform: translate(0%, 20%);
-	
-}
-
-.images-main .img__bayonet-center {
-	transform: translate(0%, -4%);
-	
-}
-
-.images-main .img__bayonet-bottom {
-	    transform: translate(0%, -19%);
-	
-}
-
-}
-
-
-@media(max-width: 290px) {
-
-	 	.main__page__background-bayonet-1, .main__page__background-bayonet-2, .main__page__background-bayonet-3 {
-	    width: 250px;
-}
-
- 	.images-main .img__bayonet-top {
-	transform: translate(-4%, 20%);
-	
-}
-
-.images-main .img__bayonet-center {
-	transform: translate(-4%, -4%);
-	
-}
-
-.images-main .img__bayonet-bottom {
-	    transform: translate(-4%, -19%);
-
-	
-}
-}*//*/*/
