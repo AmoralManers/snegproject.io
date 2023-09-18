@@ -81,27 +81,6 @@ a {
 	color: #fff;
 }
 
-.main {
-	color: #FFF;
-	font-family: 'Imperial Script';
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-
-
-}
-
-.sneg {
-	position: absolute;
-	left: 24%;
-    top: 12%;  
-}
-
-main .sneg__inner {
-	font-size: 4vh;
-	letter-spacing: 1.6px;
-	cursor: pointer;
-}
 
 .background {
   display: flex;
@@ -165,6 +144,43 @@ main .sneg__inner {
 	height: 100%;
 }
 
+
+
+
+.main {
+	color: #FFF;
+	font-family: 'Imperial Script';
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+
+
+}
+
+.sneg {
+	position: absolute;
+	left: 24%;
+    top: 12%;  
+}
+
+main .sneg__inner {
+	font-size: 4vh;
+	letter-spacing: 1.6px;
+	cursor: pointer;
+}
+
+
+/*$$#@$#@$#IUJTSDGFFJFSDIKSISFUJISFSDUIJFHNSDUIJFDUSDFUIFSDIUFJSDIUFDJSUISFDFSDUFIUJIFSDIFUJFUIJFDSU*/
+
+/*.img__main {
+   background-image: url('images/groip6.png');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 500px; 
+}*/
+
 @media(max-width: 600px) {
 	.body {
 		overflow: inherit;
@@ -174,3 +190,4 @@ main .sneg__inner {
 		height: 120vh;
 	}
 }
+
