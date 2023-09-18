@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -38,10 +38,13 @@
 
 
 window.addEventListener("load",function() {
+    // Set a timeout to hide the address bar after page load
     setTimeout(function(){
+        // Hide the address bar using CSS
         window.scrollTo(0, 1);
     }, 0);
 });
+
 
 const lightElements = document.querySelectorAll('.light');
 const darkElements = document.querySelectorAll('.dark');
