@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>Document</title>
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -25,20 +25,9 @@
 
  			<li class="white main_img">
 
-<!--  				<div class="sneg">
- 					<a href="xyt" class="sneg__inner light">Sneg</a>
- 				</div>
- 				<div class="profile">
- 					<a  href="xyt" class="profile__inner light">profile</a>
- 				</div>	 -->
  			</li>
  			<li class="black main_img">
-<!--  				<div class="saves">
- 					<a href="xyt" class="saves__inner dark">saves</a>
- 				</div>
- 				<div class="archive">
- 					<a  href="xyt" class="archive__inner dark">Archive</a>
- 				</div>	 -->
+
  			</li>
 		</ul>
  </main>
@@ -46,7 +35,12 @@
 </html>
 
 <script>
-window.onload=function(){ setTimeout(function(){ 		window.scrollTo(0, 1); 	}, 0); }
+	
+window.addEventListener("load",function() {
+    setTimeout(function(){
+        window.scrollTo(0, 1);
+    }, 0);
+});
 
 const lightElements = document.querySelectorAll('.light');
 const darkElements = document.querySelectorAll('.dark');
