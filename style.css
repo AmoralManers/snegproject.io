@@ -144,6 +144,29 @@ a {
 	height: 100%;
 }
 
+.main {
+	color: #FFF;
+	font-family: 'Imperial Script';
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+
+
+}
+
+.sneg {
+	position: absolute;
+	left: 24%;
+    top: 12%;  
+}
+
+main .sneg__inner {
+	font-size: 4vh;
+	letter-spacing: 1.6px;
+	cursor: pointer;
+}
+
+
 @media(max-width: 600px) {
 	.body {
 		overflow: inherit;
